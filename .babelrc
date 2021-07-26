@@ -1,0 +1,17 @@
+{
+
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+            "modules": false
+            // "useBuiltIns": "usage"
+            }
+        ],
+        "@babel/preset-typescript"
+    ],
+    "plugins": [
+        "@babel/plugin-external-helpers" //只引入一次babel的helper函数
+    ]
+    
+}
