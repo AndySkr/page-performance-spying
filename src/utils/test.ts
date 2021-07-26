@@ -1,4 +1,4 @@
-const a = '11111';
+const a: any = '11111';
 interface A {
   b: string;
 }
